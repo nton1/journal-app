@@ -1,0 +1,21 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  profiles:
+      active: customuserdetails
+  #data:
+    #mongodb:
+      #host: localhost
+      #port: 27017
+      #database: JournalApp_Db
+
+
+
+#spring.data.rest.basePath: /api
+
+# Security
+#security:
+#    user.name: springboot
+#    user.password: isawesome
